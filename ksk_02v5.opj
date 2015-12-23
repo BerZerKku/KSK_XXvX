@@ -99,9 +99,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 50 1434 50 515")
-        (Scroll "0 739")
-        (Zoom "108")
+        (Placement "44 2 3 -1 -1 -8 -30 50 1434 50 515")
+        (Scroll "197 1169")
+        (Zoom "216")
         (Occurrence "/"))
       (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
@@ -114,38 +114,38 @@
         (Zoom "108")
         (Occurrence "/A1"))
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "87 202")
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "0 202")
         (Zoom "100")
         (Occurrence "/A2"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "875 580")
+        (Scroll "57 532")
         (Zoom "100")
         (Occurrence "/A3"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "875 580")
+        (Scroll "61 580")
         (Zoom "100")
         (Occurrence "/A4"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "875 580")
+        (Scroll "61 580")
         (Zoom "100")
         (Occurrence "/A5"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "875 580")
+        (Scroll "61 580")
         (Zoom "100")
         (Occurrence "/A6"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "875 580")
+        (Scroll "61 580")
         (Zoom "100")
         (Occurrence "/A7"))
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "875 580")
+        (Scroll "61 580")
         (Zoom "100")
         (Occurrence "/A8"))
       (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
@@ -155,7 +155,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "758 535")
+        (Scroll "61 535")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")

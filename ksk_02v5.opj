@@ -77,6 +77,10 @@
   (Folder "Referenced Projects")
   (ISPCBBASICLICENSE "false")
   (PartMRUSelector
+    (TP
+      (FullPartName "TP.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (BOT_2
       (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
       (DeviceIndex "0")))
@@ -84,59 +88,77 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources" ".\ksk_02v5.dsn")
-      (Path "Design Resources" ".\ksk_02v5.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\ksk_02v5.dsn" "IN_BLOCK")
-      (Path "Design Resources" ".\ksk_02v5.dsn" "OUT_BLOCK")
       (Path "Outputs")
-      (Select "Design Resources" ".\ksk_02v5.dsn" "IN_BLOCK" "IN_BLOCK"))
+      (Select "Design Resources" ".\ksk_02v5.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 66 1507 81 580")
-        (Scroll "0 0")
-        (Zoom "116")
+        (Placement "44 0 1 -1 -1 -8 -30 50 1434 50 515")
+        (Scroll "0 739")
+        (Zoom "108")
         (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
+      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 88 1529 108 607")
-        (Scroll "-222 0")
-        (Zoom "58")
-        (Occurrence "/"))
-      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE2"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 66 1507 81 580")
-        (Scroll "0 0")
-        (Zoom "100")
-        (Occurrence "/A9"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 110 1551 135 634")
-        (Scroll "0 0")
-        (Zoom "200")
-        (Occurrence "/A10"))
-      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
-      (Schematic "OUT_BLOCK")
-      (Page "OUT_BLOCK"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 88 1529 108 607")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Placement "44 0 1 -1 -1 -8 -30 75 1463 75 544")
+        (Scroll "127 164")
+        (Zoom "108")
         (Occurrence "/A1"))
-      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "87 202")
+        (Zoom "100")
+        (Occurrence "/A2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "875 580")
+        (Zoom "100")
+        (Occurrence "/A3"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "875 580")
+        (Zoom "100")
+        (Occurrence "/A4"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "875 580")
+        (Zoom "100")
+        (Occurrence "/A5"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "875 580")
+        (Zoom "100")
+        (Occurrence "/A6"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "875 580")
+        (Zoom "100")
+        (Occurrence "/A7"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "875 580")
+        (Zoom "100")
+        (Occurrence "/A8"))
+      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
       (Schematic "IN_BLOCK")
-      (Page "IN_BLOCK"))))
+      (Page "IN_BLOCK"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
+        (Scroll "758 535")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2")))
+  (MPSSessionName "f.sochinsky"))

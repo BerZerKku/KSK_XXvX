@@ -1,0 +1,16 @@
+scriptmode +i +n
+setwindow pcb
+trapsize 0
+generaledit
+assign color
+setwindow form.mini
+FORM mini hlt_candicane_state Solid 
+FORM mini color_choose
+cvf_chooser 1
+setwindow form.find
+FORM find all_off
+FORM find groups YES
+FORM find name_type Generic Group
+FORM find find_name FLW_FINDPAD_DEFAULT
+setwindow pcb
+done

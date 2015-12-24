@@ -87,78 +87,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\ksk_02v5.dsn")
+      (Path "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn")
+      (Path "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\ksk_02v5.dsn"))
+      (Select "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 460"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 50 1434 50 515")
-        (Scroll "197 1169")
-        (Zoom "216")
+        (Placement "44 2 3 -1 -1 -4 -29 81 1428 84 698")
+        (Scroll "0 900")
+        (Zoom "200")
         (Occurrence "/"))
-      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
+      (Path "D:\PROJECTS\CADENCE\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 75 1463 75 544")
-        (Scroll "127 164")
-        (Zoom "108")
-        (Occurrence "/A1"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "0 202")
-        (Zoom "100")
-        (Occurrence "/A2"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "57 532")
-        (Zoom "100")
-        (Occurrence "/A3"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "61 580")
-        (Zoom "100")
-        (Occurrence "/A4"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "61 580")
-        (Zoom "100")
-        (Occurrence "/A5"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "61 580")
-        (Zoom "100")
-        (Occurrence "/A6"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "61 580")
-        (Zoom "100")
-        (Occurrence "/A7"))
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "61 580")
-        (Zoom "100")
-        (Occurrence "/A8"))
-      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
-      (Schematic "IN_BLOCK")
-      (Page "IN_BLOCK"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 0 132 0 38")
-        (Scroll "61 535")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE2")))
-  (MPSSessionName "f.sochinsky"))
+      (Page "PAGE1")))
+  (MPSSessionName "vershinin"))

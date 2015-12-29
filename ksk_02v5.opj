@@ -34,7 +34,7 @@
     (DRC_Preserved_Waived "FALSE")
     (DRC_Run_Electrical_Rules "TRUE")
     (DRC_Run_Physical_Rules "TRUE")
-    (DRC_Report_File "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DRC")
+    (DRC_Report_File "C:\FEDYA\KSK\02v5\drc.DRC")
     (DRC_Check_Ports "TRUE")
     (DRC_Check_Off-Page_Connectors "TRUE")
     (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
@@ -61,7 +61,17 @@
     (DRC_Visible_Power_pins "FALSE")
     (DRC_Report_Unused_Part_Packages "TRUE")
     (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
-    (DRC_Run_Physical_Custom_DRC "FALSE"))
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Board_sim_option "VHDL_flow")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name "C:\FEDYA\KSK\02V5\KSK_02V5.SWP")
+    (Backannotation_TAB "0")
+    ("Allegro Backannotation Run Genfeed" "TRUE")
+    ("Allegro Backannotation Board File" "C:\FEDYA\KSK\02v5\pcb\KSK_02v5.brd")
+    ("Allegro Backannotation Netlist Directory" "pcb")
+    ("Allegro Backannotation Output File" "allegro\KSK_02V5.swp")
+    ("Allegro Backannotation Update Schematic" "TRUE")
+    ("Allegro Backannotation View Output" "FALSE"))
   (Folder "Outputs"
     (File ".\pcb\pstxnet.dat"
       (Type "Report")
@@ -73,10 +83,38 @@
       (Type "Report")
       (DisplayName "pstchip.dat"))
     (File ".\ksk_02v5.drc"
-      (Type "Report")))
+      (Type "Report"))
+    (File ".\drc.drc"
+      (Type "Report"))
+    (File ".\pcb\pinview.dat"
+      (Type "Report")
+      (DisplayName "pinView.dat"))
+    (File ".\pcb\netview.dat"
+      (Type "Report")
+      (DisplayName "netView.dat"))
+    (File ".\pcb\funcview.dat"
+      (Type "Report")
+      (DisplayName "funcView.dat"))
+    (File ".\pcb\compview.dat"
+      (Type "Report")
+      (DisplayName "compView.dat")))
   (Folder "Referenced Projects")
   (ISPCBBASICLICENSE "false")
   (PartMRUSelector
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CAPACITOR
+      (FullPartName "CAPACITOR.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (STM1061N38WX6F
+      (FullPartName "STM1061N38WX6F.Normal")
+      (LibraryName "Z:\LIB\SYMBOLS\IC.OLB")
+      (DeviceIndex "0"))
     (TP
       (FullPartName "TP.Normal")
       (LibraryName "Z:\LIB\SYMBOLS\CONNECTOR.OLB")
@@ -87,38 +125,80 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn")
-      (Path "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn"
-         "IN_BLOCK")
+      (Path "Design Resources" ".\ksk_02v5.dsn")
+      (Path "Design Resources" ".\ksk_02v5.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\ksk_02v5.dsn" "IN_BLOCK")
       (Path "Outputs")
-      (Select "Design Resources" "D:\projects\cadence\ksk\02v5\ksk_02v5.dsn"
-         "IN_BLOCK" "IN_BLOCK"))
+      (Select "Design Resources" ".\ksk_02v5.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 935"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 54 1141 56 666")
-        (Scroll "317 110")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -8 -30 225 1303 225 797")
+        (Scroll "-332 -3")
+        (Zoom "54")
         (Occurrence "/"))
-      (Path "D:\PROJECTS\CADENCE\KSK\02V5\KSK_02V5.DSN")
+      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 81 1172 84 698")
-        (Scroll "308 226")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 -8 -30 0 1057 0 551")
+        (Scroll "219 520")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1463 150 701")
+        (Scroll "208 417")
+        (Zoom "134")
         (Occurrence "/A1"))
-      (Path "D:\PROJECTS\CADENCE\KSK\02V5\KSK_02V5.DSN")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 25 1413 25 439")
+        (Scroll "0 190")
+        (Zoom "100")
+        (Occurrence "/A2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1438 50 464")
+        (Scroll "0 150")
+        (Zoom "100")
+        (Occurrence "/A3"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1463 75 489")
+        (Scroll "0 200")
+        (Zoom "100")
+        (Occurrence "/A4"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1488 100 514")
+        (Scroll "0 220")
+        (Zoom "100")
+        (Occurrence "/A5"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1513 125 539")
+        (Scroll "0 250")
+        (Zoom "100")
+        (Occurrence "/A6"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1538 150 564")
+        (Scroll "0 300")
+        (Zoom "100")
+        (Occurrence "/A7"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1563 175 589")
+        (Scroll "0 220")
+        (Zoom "100")
+        (Occurrence "/A8"))
+      (Path "C:\FEDYA\KSK\02V5\KSK_02V5.DSN")
       (Schematic "IN_BLOCK")
       (Page "IN_BLOCK")))
-  (MPSSessionName "vershinin"))
+  (MPSSessionName "f.sochinsky"))

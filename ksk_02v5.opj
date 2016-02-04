@@ -73,7 +73,23 @@
     ("Allegro Backannotation Netlist Directory" "pcb")
     ("Allegro Backannotation Output File" "allegro\KSK_02V5.swp")
     ("Allegro Backannotation Update Schematic" "TRUE")
-    ("Allegro Backannotation View Output" "FALSE"))
+    ("Allegro Backannotation View Output" "FALSE")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "TRUE")
+    (ANNOTATE_PreserveUserEdits "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs"
     (File ".\pcb\pstxnet.dat"
       (Type "Report")
@@ -143,7 +159,8 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\project\circuit\fiber-e1\01v0\library1.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -153,9 +170,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 154 1574 189 684")
-        (Scroll "-236 0")
-        (Zoom "55")
+        (Placement "44 2 3 -1 -1 -4 -28 154 1574 189 684")
+        (Scroll "303 387")
+        (Zoom "110")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
@@ -163,7 +180,7 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 154 1578 189 688")
+        (Placement "44 0 1 -1 -1 -4 -28 154 1578 189 688")
         (Scroll "414 139")
         (Zoom "110")
         (Occurrence "/"))

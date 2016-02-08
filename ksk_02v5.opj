@@ -159,8 +159,7 @@
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\project\circuit\fiber-e1\01v0\library1.olb")
-      (Path "Outputs")
-      (Select "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -171,8 +170,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -28 154 1574 189 684")
-        (Scroll "303 387")
-        (Zoom "110")
+        (Scroll "-215 -5")
+        (Zoom "55")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
@@ -181,10 +180,30 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -4 -28 154 1578 189 688")
-        (Scroll "414 139")
-        (Zoom "110")
+        (Scroll "-238 0")
+        (Zoom "55")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE2")))
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 0 1194 0 469")
+        (Scroll "-123 0")
+        (Zoom "55")
+        (Occurrence "/A1"))
+      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
+      (Schematic "IN_BLOCK")
+      (Page "IN_BLOCK"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -28 22 1216 27 496")
+        (Scroll "206 223")
+        (Zoom "110")
+        (Occurrence "/A10"))
+      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
+      (Schematic "OUT_BLOCK")
+      (Page "OUT_BLOCK")))
   (MPSSessionName "Shcheblykin"))

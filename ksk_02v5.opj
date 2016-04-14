@@ -117,7 +117,7 @@
       (Type "Report")
       (DisplayName "compView.dat"))
     (Sort User)
-    (File "KSK_02V5.PRP"
+    (File ".\ksk_02v5.prp"
       (Type "Report")
       (DisplayName "KSK_02V5.PRP")))
   (Folder "Referenced Projects")
@@ -147,30 +147,29 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn")
-      (Path "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn"
+      (Path "Design Resources" "d:\project\circuit\ksk\02v5\ksk_02v5.dsn")
+      (Path "Design Resources" "d:\project\circuit\ksk\02v5\ksk_02v5.dsn"
          "SCHEMATIC1")
-      (Path "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn"
+      (Path "Design Resources" "d:\project\circuit\ksk\02v5\ksk_02v5.dsn"
          "IN_BLOCK")
-      (Path "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn"
+      (Path "Design Resources" "d:\project\circuit\ksk\02v5\ksk_02v5.dsn"
          "OUT_BLOCK")
-      (Path "Design Resources" "D:\Project\Circuit\KSK\02v5\ksk_02v5.dsn"
-         "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
          "d:\project\circuit\fiber-e1\01v0\library1.olb")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 497 0 893"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -28 154 1574 189 684")
-        (Scroll "-215 -5")
+        (Placement "44 0 1 -1 -1 -4 -28 154 1574 189 684")
+        (Scroll "-236 0")
         (Zoom "55")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
@@ -179,31 +178,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 154 1578 189 688")
-        (Scroll "-238 0")
-        (Zoom "55")
+        (Placement "44 2 3 -1 -1 -4 -28 154 1578 189 688")
+        (Scroll "551 747")
+        (Zoom "154")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE2"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 0 1194 0 469")
-        (Scroll "-123 0")
-        (Zoom "55")
-        (Occurrence "/A1"))
-      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
-      (Schematic "IN_BLOCK")
-      (Page "IN_BLOCK"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -4 -28 22 1216 27 496")
-        (Scroll "206 223")
-        (Zoom "110")
-        (Occurrence "/A10"))
-      (Path "D:\PROJECT\CIRCUIT\KSK\02V5\KSK_02V5.DSN")
-      (Schematic "OUT_BLOCK")
-      (Page "OUT_BLOCK")))
+      (Page "PAGE2")))
   (MPSSessionName "Shcheblykin"))

@@ -1,9 +1,9 @@
 G04 ================== begin FILE IDENTIFICATION RECORD ==================*
-G04 Layout Name:  D:/docs/KSK_02v6/pcb/KSK_02v6.brd*
+G04 Layout Name:  D:/Project/Circuit/AVANT/KSK/KSK_02v6/pcb/KSK_02v6.brd*
 G04 Film Name:    MASK_TOP*
 G04 File Format:  Gerber RS274X*
-G04 File Origin:  Cadence Allegro 16.6-2015-S105*
-G04 Origin Date:  Thu Aug 30 09:01:53 2018*
+G04 File Origin:  Cadence Allegro 16.6-2015-S073*
+G04 Origin Date:  Fri Sep 28 10:21:00 2018*
 G04 *
 G04 Layer:  VIA CLASS/SOLDERMASK_TOP*
 G04 Layer:  PIN/SOLDERMASK_TOP*
